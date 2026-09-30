@@ -1,19 +1,16 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("💻 Portafolio de Aplicaciones - Computación Avanzada")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("🌐 Sobre este sitio:")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Esta página tiene como propósito almacenar las aplicaciones de Streamlit Cloud desarrolladas durante las sesiones" 
+    "de la asignatura de Computación Avanzada presentadas por mi, Julián Ardila Castrillón."
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+st.write("A continuación encontrarás cada aplicación con su respectivo enlace para visitarla:")
 col1, col2, col3 = st.columns(3)
 
 with col1:
