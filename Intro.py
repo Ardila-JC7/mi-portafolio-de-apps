@@ -11,7 +11,7 @@ with st.sidebar:
   st.write(parrafo)
 
 st.write("A continuación encontrarás cada aplicación con su respectivo enlace para visitarla:")
-col1, col2, col3, col4 = st.columns(2)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
  
